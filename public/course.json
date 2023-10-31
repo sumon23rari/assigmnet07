@@ -1,0 +1,75 @@
+[
+   {
+ "courseId": 1,
+ "img": "https://i.ibb.co/8jQxd2Z/Rectangle-2.png",
+ "courseName": "Introduction to Programming",
+ "courseDescription": "Learn the basics of programming with this introductory course.",
+ "price": 49.99,
+ "credit": 3
+   },
+   {
+ "courseId": 2,
+ "img": "https://i.ibb.co/jJQjZzg/Rectangle-2-2.png",
+ "courseName": "Web Development Fundamentals",
+ "courseDescription": "Master the fundamentals of web development and design.",
+ "price": 59.99,
+ "credit": 4
+   },
+   {
+ "courseId": 3,
+ "img": "https://i.ibb.co/n8MjmQW/Rectangle-2-1.png",
+ "courseName": "Data Science Essentials",
+ "courseDescription": "Explore the essentials of data science and analytics.",
+ "price": 79.99,
+ "credit": 5
+   },
+   {
+ "courseId": 4,
+ "img": "https://i.ibb.co/zSjqkn4/Rectangle-2-3.png",
+ "courseName": "Mobile App Development",
+ "courseDescription": "Create mobile apps for iOS and Android platforms.",
+ "price": 69.99,
+ "credit": 4
+   },
+   {
+ "courseId": 5,
+ "img": "https://i.ibb.co/61qtkhY/Rectangle-2-4.png",
+ "courseName": "Machine Learning Fundamentals",
+ "courseDescription": "Learn the basics of machine learning and AI.",
+ "price": 89.99,
+ "credit": 5
+   },
+   {
+ "courseId": 6,
+ "img": "https://i.ibb.co/z5vCjPn/Rectangle-2-6.png",
+ "courseName": "Cybersecurity Basics",
+ "courseDescription": "Explore the fundamentals of cybersecurity and network security.",
+ "price": 69.99,
+ "credit": 4
+   },
+   {
+ "courseId": 7,
+ "img": "https://i.ibb.co/ZXPrbH2/Rectangle-2-5.png",
+ "courseName": "Digital Marketing Strategies",
+ "courseDescription": "Master the strategies and tactics of digital marketing.",
+ "price": 59.99,
+ "credit": 4
+   },
+   {
+ "courseId": 8,
+ "img": "https://i.ibb.co/BPH1gMX/Rectangle-3.png",
+ "courseName": "Database Management",
+ "courseDescription": "Learn to manage and optimize databases effectively.",
+ "price": 69.99,
+ "credit": 4
+   },
+   {
+ "courseId": 9,
+ "img": "https://i.ibb.co/0VtyhvN/Rectangle-3-1.png",
+ "courseName": "Artificial Intelligence Applications",
+ "courseDescription": "Explore practical applications of artificial intelligence in various fields.",
+ "price": 79.99,
+ "credit": 5
+   }
+  ]
+  
