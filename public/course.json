@@ -2,7 +2,7 @@
    {
  "courseId": 1,
  "img": "https://i.ibb.co/8jQxd2Z/Rectangle-2.png",
- "courseName": "Introduction to Programming",
+ "courseName": "Introduction to C Programming",
  "courseDescription": "Learn the basics of programming with this introductory course.",
  "price": 49.99,
  "credit": 3
@@ -10,7 +10,7 @@
    {
  "courseId": 2,
  "img": "https://i.ibb.co/jJQjZzg/Rectangle-2-2.png",
- "courseName": "Web Development Fundamentals",
+ "courseName": "Introduction to Algorithm",
  "courseDescription": "Master the fundamentals of web development and design.",
  "price": 59.99,
  "credit": 4
@@ -18,7 +18,7 @@
    {
  "courseId": 3,
  "img": "https://i.ibb.co/n8MjmQW/Rectangle-2-1.png",
- "courseName": "Data Science Essentials",
+ "courseName": "Introduction to C++ for DSA",
  "courseDescription": "Explore the essentials of data science and analytics.",
  "price": 79.99,
  "credit": 5
@@ -26,7 +26,7 @@
    {
  "courseId": 4,
  "img": "https://i.ibb.co/zSjqkn4/Rectangle-2-3.png",
- "courseName": "Mobile App Development",
+ "courseName": "Basic Data Structures",
  "courseDescription": "Create mobile apps for iOS and Android platforms.",
  "price": 69.99,
  "credit": 4
