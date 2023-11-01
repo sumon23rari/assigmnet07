@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({handleSelected}) => {
     const [courses,setCourses]=useState([]);
     useEffect(()=>{
         fetch('course.json')
@@ -11,7 +11,7 @@ const Courses = () => {
     return (
         <div  className='grid grid-cols-3 gap-3'>
             {
-                courses.map((course,index)=><Course  course={course} key={index}></Course>)
+                courses.map((course,index)=><Course handleSelected={handleSelected}  course={course} key={index}></Course>)
             }
         </div>
     );

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; 
 import { BiDollar,BiBookOpen} from "react-icons/bi";
-const Course = ({course}) => {
+const Course = ({course,handleSelected}) => {
     const {courseId,img,courseName,courseDescription,price,credit}=course;
  
     return (
@@ -20,6 +20,7 @@ const Course = ({course}) => {
             <BiBookOpen></BiBookOpen> &nbsp; &nbsp; credit: {credit}hr
             </div>
             </div>
+            <button onClick={()=>handleSelected(course)} className='w-full py-2 text-white text-center bg-[#2F80ED] rounded-lg border-0'>selected</button>
             </div>
            
         </div>
