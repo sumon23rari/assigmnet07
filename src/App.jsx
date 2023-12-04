@@ -8,16 +8,22 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
 const [bookmarks,setBookmarks]=useState([]);
-// const [creditHours,setCreditHours]=useState(0);
-// const [remaings,setRemainngs]=useState(0)
-// const updateSelectItem=(book)=>{
-//   console.log(book)
-//   let creditHour=0;
-//   if (creditHours<=20) {
-//     creditHour=creditH
-//   }
-  
-// }
+let remaingHour=20;
+let credithour=0;
+let newRemaning=remaingHour;
+let newCredithour=credithour;
+for (const bookm  of bookmarks) {
+ if (remaingHour>0 && credithour<=20) {
+  remaingHour=remaingHour-bookm.credit;
+  credithour=credithour+bookm.credit;
+  if (remaingHour>0 && credithour<=20) {
+    newRemaning=remaingHour;
+    newCredithour=credithour;
+  }
+ } else {
+  toast.error('please credithour less then 21')
+ }
+}
 const handleSelected=(book)=>{
   
   const bookItem=bookmarks.find(bok=>bok.courseId===book.courseId)
@@ -37,7 +43,7 @@ const handleSelected=(book)=>{
 <div className='md:w-3/4'>
 <Courses handleSelected={handleSelected}></Courses>
 </div>
-<Bookmarks bookmarks={bookmarks}></Bookmarks>
+<Bookmarks bookmarks={bookmarks} remaingHour={newRemaning} credithour={newCredithour}></Bookmarks>
 </div>
 <ToastContainer />
 </>
